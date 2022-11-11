@@ -10,7 +10,7 @@
       networks:
         - ${NETWORK}
       environment:
-        ZOOKEEPER_CLIENT_PORT: 2181
+        ZOOKEEPER_CLIENT_PORT: 218
     kafka:
       ipc: host
       image: confluentinc/cp-server:5.5.1
